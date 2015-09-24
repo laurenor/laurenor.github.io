@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Meownagerie</title>
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Itim">
+
+</head>
+
+<body>
+	<div id="head">
+		<h1>Meownagerie</h1>
+		<p>Choose a breed below to see a that breed's Meownagerie.</p>
+		<form id="tagsearch" onsubmit="event.preventDefault(); selectedBreed(this)">
+		    <p>
+		        <label for="tag">Breed:</label>
+		        <select name="tag" id="tag">
+		        	<option value="norwegianforestcat">Norwegian Forest Cat</option>
+		        	<option value="scottishfold">Scottish Fold</option>
+		        	<option value="bengal">Bengal</option>
+		        	<option value="mainecoon">Maine Coon</option>
+		        	<option value="americanshorthair">American Shorthair</option>
+		        	<option value="americanlonghair">American Longhair</option>
+		        	<option value="persiancat">Persian</option>
+		        </select>
+		        <input type="submit" value="Search" />
+		    </p>
+		</form>
+	</div>
+
+	<div id="gallery"></div>
+	<div id="lightbox"></div>
+	<div id="footer"><p>Meownagerie was made by <a href="http://github.com/laurenor">Lauren Ortencio</a></p></div>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
+
