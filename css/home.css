@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+body a {
+	color: #666;
+	text-decoration: none;
+}
+
+body a:hover {
+	color: #000;
+}
