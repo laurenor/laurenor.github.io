@@ -77,10 +77,6 @@ a:hover {
 	color: #169bb3;
 }
 
-#left img {
-	opacity: 0.6;
-}
-
 #info img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -96,11 +92,4 @@ a:hover {
 #profile {
 	width: 300px;
 	margin-top: 20px;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
-
-#profile:hover {
-	-webkit-filter: none;
-	filter: none;	
 }
