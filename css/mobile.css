@@ -1,7 +1,6 @@
 #content, html, body {
     height: 100%;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
     margin: 0;
     color: #169bb3;
 }
@@ -16,7 +15,6 @@ body {
     width: 40%;
     height: 100%;
     position: relative;
-    text-align: center;
 }
 
 #right {
@@ -28,6 +26,9 @@ body {
 }
 
 #name {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	margin-left: 20px;
 	text-align: center;
 }
@@ -44,14 +45,14 @@ h2 {
 	font-weight: normal;
 }
 
-p {
-	color: #666;
+p.subtitle {
+	font-size: 30px;
+    margin-top: -5px;
 }
 
-p.subtitle {
-	font-size: 25px;
-    margin-top: -5px;
-    color: #169bb3;
+#links {
+	font-size: 30px;
+	position: absolute;
 }
 
 #info {
@@ -62,45 +63,8 @@ p.subtitle {
 li {
 	list-style: none;
 	display: inline;
-	margin-right: 10px;
-}
-
-ul {
-	padding: 0;
 }
 
 a {
-	color: #666;
-}
-
-a:hover {
-	color: #169bb3;
-}
-
-#left img {
-	opacity: 0.6;
-}
-
-#info img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	opacity: 0.6;
-	height: 125px;
-}
-#info img:hover {
-	-webkit-filter: none;
-	filter: none;
-	opacity: 1;
-}
-
-#profile {
-	width: 300px;
-	margin-top: 20px;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
-
-#profile:hover {
-	-webkit-filter: none;
-	filter: none;	
+	font-size: 20px;
 }
