@@ -15,6 +15,7 @@ p, li, h1, h2, h3, .navbar-brand {
 	width: 100%;
 	max-width: 756px;
 	margin: 0 auto;
+	 vertical-align: middle
 }
 
 .header {
@@ -107,11 +108,11 @@ p {
 }
 
 @media screen and (max-width: 480px) {
-    .header {
+/*    .header {
         margin-bottom: 30px;
         margin-top: 80px;
         text-align: middle;
-    }
+    }*/
 
     .social {
     	margin: 0 auto;
