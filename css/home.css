@@ -1,100 +1,41 @@
-#content, html, body {
-    height: 100%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    color: #169bb3;
-}
-
 body {
-	/*background: url("http://www.transparenttextures.com/patterns/black-thread-light.png");*/
+	margin-top: 100px;
+	font-family: 'Press Start 2P', sans-serif;
 }
 
-#left {
-    float: left;
-    width: 300px;
-    width: 40%;
-    height: 100%;
-    position: relative;
-    text-align: center;
+p, li, h1, h2, h3, .navbar-brand {
+	transform : scale(1,1.4);
+	-webkit-transform:scale(1,1.4); /* Safari and Chrome */
+	-moz-transform:scale(1,1.4); /* Firefox */
+	-ms-transform:scale(1,1.4); /* IE 9+ */
+	-o-transform:scale(1,1.4); /* Opera */
 }
 
-#right {
-    float: right;
-    width: 60%;
-    height: 100%;
-    overflow-y: auto;
-    position: relative;
+.header {
+	max-width: 100%;
+	width: 756px;
+	/*height: auto;*/
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
 
-#name {
-	margin-left: 20px;
-	text-align: center;
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: transparent;
 }
 
-h1 {
-	font-size: 45px;
-	font-weight: normal;
-	margin: 0;
-	font-family: 'Pacifico', cursive;
-	color: #333;
+.navbar-default .navbar-brand {
+	font-size: 12px;
+	color: #fff;
+	text-shadow: 3px 2px rgba(224,125,125, 0.8);
+
 }
 
-h2 {
-	font-weight: normal;
+.navbar-default {
+	background-color: #dcdcdc;
 }
 
-p {
-	color: #666;
-}
-
-p.subtitle {
-	font-size: 25px;
-    margin-top: -5px;
-    color: #169bb3;
-}
-
-#info {
-	margin: 10px;
-	margin-right: 20px;
-}
-
-li {
-	list-style: none;
-	display: inline;
-	margin-right: 10px;
-}
-
-ul {
-	padding: 0;
-}
-
-a {
-	color: #666;
-}
-
-a:hover {
-	color: #169bb3;
-}
-
-#info img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	opacity: 0.6;
-	height: 100px;
-	border-radius: 50%;
-	margin-right: 10px;
-}
-#info img:hover {
-	-webkit-filter: none;
-	filter: none;
-	opacity: 1;
-}
-
-#profile {
-	width: 300px;
-	margin-top: 20px;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	opacity: 0.7;
+.navbar-default a {
+	font-size: 10px;
 }
