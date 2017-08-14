@@ -62,6 +62,7 @@ li {
 #social-icons img {
 	height: 30px;
 	border-bottom: 5px solid white;
+	margin-right: 5px;
 }
 
 #social-icons img:hover {
